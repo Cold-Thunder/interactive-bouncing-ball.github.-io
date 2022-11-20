@@ -76,7 +76,7 @@ class Circle{
 
 let cirArr = [];
 
-for(let i = 0; i <= 300; i++){
+for(let i = 0; i <= innerWidth/2; i++){
 	let ra = Math.random()*30;
 	let x = Math.random()* innerWidth;
 	let y = Math.random()* innerHeight;
@@ -118,15 +118,4 @@ const anim = () => {
 }
 
 anim()
-
-
-
-
-
-
-
-
-
-
-
 
